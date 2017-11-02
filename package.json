@@ -1,0 +1,29 @@
+{
+  "name": "admision",
+  "version": "1.0.0",
+  "description": "Proyecto de API REST para prueba de admision",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SYNERGY-GB/Test-Integration.git"
+  },
+  "author": "Carlos Noria (nucinm@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SYNERGY-GB/Test-Integration/issues"
+  },
+  "homepage": "https://github.com/SYNERGY-GB/Test-Integration#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.11.0",
+    "properties-reader": "0.0.15",
+    "request": "^2.81.0",
+    "sha1": "^1.1.1"
+  }
+}
